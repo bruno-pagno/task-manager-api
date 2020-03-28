@@ -5,13 +5,13 @@
 ## Environment variables
 Please make sure to setup a config folder with the variables
 
-PORT=Setup your port for the application run on Express Module
-SENDGRID_API_KEY
-    This is a API key provided by sendgrid.com (you can have a free plan by registering)
-MONGODB_URL 
-    MongoDb Database URL
-JWT_SECRET
-    Json Web Token Secret Key
+PORT=*Setup your port for the application run on Express Module*
+
+SENDGRID_API_KEY=*This is a API key provided by sendgrid.com (you can have a free plan by registering)*
+
+MONGODB_URL=*MongoDb Database URL*
+
+JWT_SECRET=*Json Web Token Secret Key*
 
 Ex: ./config/dev.env
 ```
